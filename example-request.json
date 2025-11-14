@@ -1,0 +1,28 @@
+{
+  "input": {
+    "workflow": {
+      "4": {
+        "inputs": {
+          "value": 30
+        },
+        "class_type": "CreateVideo",
+        "_meta": {
+          "title": "CreateVideo"
+        }
+      },
+      "28": {
+        "inputs": {
+          "filename": "video/ComfyUI",
+          "video": [
+            "4",
+            0
+          ]
+        },
+        "class_type": "SaveVideo",
+        "_meta": {
+          "title": "SaveVideo"
+        }
+      }
+    }
+  }
+}
